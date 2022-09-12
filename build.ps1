@@ -6,12 +6,14 @@ foreach ($file in Get-ChildItem)
     {
         $name = Split-Path $file -LeafBase
 
-        if (Test-Path "$name.ttf" -PathType Leaf)
+        if (Test-Path "build\$name.ttf" -PathType Leaf)
         {
-            Remove-Item "$name.ttf"
+            Remove-Item "build\$name.ttf"
         }
+		
+		Copy-Item "$name.sfd" "build/$name.sfd"
 
-        java -jar ".\BitsNPicas.jar" convertbitmap -f ttf -o "$name.ttf" "$name.sfd"
+        java -jar ".\BitsNPicas.jar" convertbitmap -f ttf -o "build/$name.ttf" "build/$name.sfd"
         Write-Host "Converted $name to ttf."
     }
 }
