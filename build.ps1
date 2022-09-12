@@ -10,10 +10,8 @@ foreach ($file in Get-ChildItem)
         {
             Remove-Item "build\$name.ttf"
         }
-		
-		Copy-Item "$name.sfd" "build/$name.sfd"
 
-        java -jar ".\BitsNPicas.jar" convertbitmap -f ttf -o "build/$name.ttf" "build/$name.sfd"
+        java -jar ".\BitsNPicas.jar" convertbitmap -f ttf -o "build/$name.ttf" "$name.sfd"
         Write-Host "Converted $name to ttf."
     }
 }
