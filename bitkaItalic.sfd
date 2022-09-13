@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1663006991
-ModificationTime: 1663014909
+ModificationTime: 1663015516
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -47,7 +47,7 @@ WinInfo: 0 70 21
 OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65536 97
+BeginChars: 65536 98
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -726,6 +726,13 @@ Width: 461
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: periodcentered
+Encoding: 183 183 97
+Width: 461
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
 BitmapFont: 13 98 10 3 1
 BDFChar: 0 33 6 2 2 0 8
@@ -885,7 +892,7 @@ BDFChar: 76 109 6 0 5 0 5
 BDFChar: 77 110 6 0 5 0 5
 YfMWVLl;<6
 BDFChar: 78 111 6 0 5 0 5
-E/9=+Li`Us
+E/9=+N,Sas
 BDFChar: 79 112 6 0 5 -2 5
 YfMWVM"H4J
 BDFChar: 80 113 6 0 5 -2 5
@@ -922,5 +929,7 @@ BDFChar: 95 9633 6 0 4 0 8
 po)9$W5t@)p](9o
 BDFChar: 96 32 6 0 0 0 0
 z
+BDFChar: 97 183 6 2 2 4 4
+J,fQL
 EndBitmapFont
 EndSplineFont

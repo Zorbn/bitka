@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1663006991
-ModificationTime: 1663009849
+ModificationTime: 1663026770
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -47,7 +47,7 @@ WinInfo: 0 70 21
 OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65536 98
+BeginChars: 65536 99
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -732,8 +732,15 @@ Encoding: 129 129 97
 Width: 1000
 LayerCount: 2
 EndChar
+
+StartChar: periodcentered
+Encoding: 183 183 98
+Width: 461
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 13 99 10 3 1
+BitmapFont: 13 100 10 3 1
 BDFChar: 0 33 6 2 3 0 8
 ^qdb$^qd_c^]4?7
 BDFChar: 1 34 6 0 4 6 8
@@ -799,7 +806,7 @@ E7c!E0OS8g?iU0,
 BDFChar: 31 64 6 0 4 0 8
 E7igqf\"ilDu]k<
 BDFChar: 32 65 6 0 5 0 8
-0JI`rG^.HVbQ%VC
+0JI`R=ErWVg].<S
 BDFChar: 33 66 6 0 4 0 8
 nCZCGnCZCGn,NFg
 BDFChar: 34 67 6 0 4 0 8
@@ -824,8 +831,8 @@ BDFChar: 43 76 6 0 4 0 8
 ^qdb$^qdb$p](9o
 BDFChar: 44 77 6 0 4 0 8
 LtMLtpt46OfDkmO
-BDFChar: 45 78 6 0 5 0 8
-bfoGOr;?KJbQ%VC
+BDFChar: 45 78 6 0 4 0 8
+R+V3/q"XX:a8c2?
 BDFChar: 46 79 6 0 4 0 8
 E7igqf\"j/Du]k<
 BDFChar: 47 80 6 0 4 0 8
@@ -886,8 +893,8 @@ BDFChar: 74 107 6 0 4 0 8
 ^qdb<nDN6ofDkmO
 BDFChar: 75 108 6 0 5 0 8
 E%it"0JG17qu?]s
-BDFChar: 76 109 6 0 5 0 5
-bl%C_bfg%e
+BDFChar: 76 109 6 0 4 0 5
+f_G6of[p0(
 BDFChar: 77 110 6 0 4 0 5
 Yh7U\f[p0(
 BDFChar: 78 111 6 0 4 0 5
@@ -930,5 +937,7 @@ BDFChar: 96 32 6 0 0 0 0
 z
 BDFChar: 97 129 13 0 0 0 0
 z
+BDFChar: 98 183 6 2 3 4 5
+^q]pM
 EndBitmapFont
 EndSplineFont
