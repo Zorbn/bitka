@@ -1,8 +1,8 @@
 SplineFontDB: 3.2
-FontName: Bitka
-FullName: Bitka
+FontName: BitkaBoldItalic
+FullName: Bitka Bold Italic
 FamilyName: Bitka
-Weight: Bold Italic
+Weight: BoldItalic
 Copyright: Copyright (c) 2022, Nic
 UComments: "2022-9-12: Created with FontForge (http://fontforge.org)"
 Version: 001.000
@@ -16,16 +16,22 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 739 1779384305 7366]
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1663006991
-ModificationTime: 1663188029
+ModificationTime: 1667346503
+PfmFamily: 17
+TTFWeight: 700
+TTFWidth: 5
+LineGap: 90
+VLineGap: 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 0
+OS2TypoLinegap: 90
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -35,19 +41,19 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+OS2CodePages: 00100000.00000000
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: 13
+DisplaySize: -24
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 70 21
-OnlyBitmaps: 1
+WinInfo: 11270 70 21
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65536 99
+BeginChars: 65536 103
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -276,8 +282,16 @@ EndChar
 StartChar: A
 Encoding: 65 65 32
 Width: 461
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 461 0 l 1
+ 461 -201 l 1
+ 0 -201 l 1
+ 0 0 l 1
+EndSplineSet
 EndChar
 
 StartChar: B
@@ -707,40 +721,70 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0099
-Encoding: 153 153 94
-Width: 1000
-LayerCount: 2
-EndChar
-
 StartChar: H22073
-Encoding: 9633 9633 95
+Encoding: 9633 9633 94
 Width: 461
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: space
-Encoding: 32 32 96
+Encoding: 32 32 95
 Width: 461
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0081
-Encoding: 129 129 97
-Width: 1000
+StartChar: periodcentered
+Encoding: 183 183 96
+Width: 461
+Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: periodcentered
-Encoding: 183 183 98
+StartChar: uni3044
+Encoding: 12356 12356 97
+Width: 461
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni3046
+Encoding: 12358 12358 98
+Width: 461
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni304B
+Encoding: 12363 12363 99
+Width: 461
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni3057
+Encoding: 12375 12375 100
+Width: 461
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni306E
+Encoding: 12398 12398 101
+Width: 461
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni3093
+Encoding: 12435 12435 102
 Width: 461
 Flags: W
 LayerCount: 2
 EndChar
 EndChars
-BitmapFont: 13 100 10 3 1
+BitmapFont: 13 104 10 3 1
 BDFChar: 0 33 6 2 3 0 8
 ^qdb$^qd_c^]4?7
 BDFChar: 1 34 6 0 4 6 8
@@ -929,15 +973,23 @@ BDFChar: 92 125 6 0 3 0 8
 i%QimE*t@RhuE`W
 BDFChar: 93 126 6 0 5 3 5
 E3qS)
-BDFChar: 94 153 13 0 0 0 0
-z
-BDFChar: 95 9633 6 0 4 0 8
+BDFChar: 94 9633 6 0 4 0 8
 po)9$W5t@)p](9o
-BDFChar: 96 32 6 0 0 0 0
+BDFChar: 95 32 6 0 0 0 0
 z
-BDFChar: 97 129 13 0 0 0 0
-z
-BDFChar: 98 183 6 2 3 4 5
+BDFChar: 96 183 6 2 3 4 5
 ^q]pM
+BDFChar: 97 12356 6 0 0 0 0
+z
+BDFChar: 98 12358 6 0 0 0 0
+z
+BDFChar: 99 12363 6 0 0 0 0
+z
+BDFChar: 100 12375 6 0 0 0 0
+z
+BDFChar: 101 12398 6 0 0 0 0
+z
+BDFChar: 102 12435 6 0 0 0 0
+z
 EndBitmapFont
 EndSplineFont
